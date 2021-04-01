@@ -1,0 +1,113 @@
+#page-login {
+  background-color: #3CBBF1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-login > input {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #F3F3F3;
+  width: 320px;
+  color: rgb(138, 138, 138);
+}
+
+#page-login > button {
+  margin-top: 10px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #2DA7DB;
+  color: #F3F3F3;
+  outline: none;
+}
+
+#page-login > button:hover {
+  background-color: #2a99c9;
+}
+
+#page-chat {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+#page-chat > #chat-area {
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+#page-chat > #chat-area > #messages {
+  margin: 0;
+  padding: 0;
+  max-height: 800px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#page-chat > #chat-area > #messages > .message-area {
+  display: flex;
+  flex-direction: column;
+  background-color: #EEEEEE;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#page-chat > #chat-area > #messages > .message-area > .username {
+  color: #B6B6B6;
+  font-weight: bold;
+}
+
+#page-chat > #chat-area > #messages > .message-area > .user-message {
+  color: #474747;
+  font-size: 1.2rem;
+}
+
+#page-chat > #chat-area > #form {
+  display: flex;
+  border: 2px solid #3CBBF1;
+}
+
+#page-chat > #chat-area > #form > button {
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #3CBBF1;
+  color: #fff;
+  outline: none;
+}
+
+#page-chat > #chat-area > #form > input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
